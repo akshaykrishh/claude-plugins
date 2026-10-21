@@ -4,7 +4,7 @@
     "name": "Akshay Krishna"
   },
   "metadata": {
-    "description": "Plugins for running Claude Code at scale: many sessions, accounts and worktrees."
+    "description": "Plugins for working with many AI agents: starling keeps sessions, accounts and worktrees safe; magpie hands queued work to your agents."
   },
   "plugins": [
     {
@@ -14,6 +14,16 @@
         "repo": "akshaykrishh/starling"
       },
       "description": "Run many Claude Code sessions in parallel worktrees safely: blocks git stash, destructive git and polling loops, and repairs shared config across accounts.",
+      "category": "productivity"
+    },
+    {
+      "name": "magpie",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/akshaykrishh/magpie.git",
+        "path": "plugins/magpie"
+      },
+      "description": "Work your magpie queue from Claude Code: registers magpie's MCP server and teaches agents to take, finish and hand back queued items. Needs the magpie app or CLI installed.",
       "category": "productivity"
     }
   ]
