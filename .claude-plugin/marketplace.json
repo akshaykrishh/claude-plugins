@@ -1,0 +1,20 @@
+{
+  "name": "akshaykrishh",
+  "owner": {
+    "name": "Akshay Krishna"
+  },
+  "metadata": {
+    "description": "Plugins for running Claude Code at scale: many sessions, accounts and worktrees."
+  },
+  "plugins": [
+    {
+      "name": "starling",
+      "source": {
+        "source": "github",
+        "repo": "akshaykrishh/starling"
+      },
+      "description": "Run many Claude Code sessions in parallel worktrees safely: blocks git stash, destructive git and polling loops, and repairs shared config across accounts.",
+      "category": "productivity"
+    }
+  ]
+}
